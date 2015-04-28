@@ -31,7 +31,8 @@ a{
 	text-transform: uppercase;	
 }
 
-.header--subtitle {
+.header--subtitle, 
+.construction {
 	font-family: 'Lora', serif;
 	font-size: 18px; 
 	font-weight: 500;
