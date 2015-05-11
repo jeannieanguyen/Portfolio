@@ -63,11 +63,18 @@ span {
 	margin-right: 30px;
 }
 
-.navbar-item:hover {
-	background-color: #000;
-	border-color: #000;
+.navbar-item--resume:hover {
+	background-color: #89bab6;
+	border-color: #89bab6;
 }
-
+.navbar-item--portfolio:hover {
+	background-color: #FBB755;
+	border-color: #FBB755;
+}
+.navbar-item--contact:hover {
+	background-color: #bbb;
+	border-color: #bbb;
+}
 .construction {
 	margin-top: 50px; 
 	text-align: center;
@@ -85,6 +92,7 @@ span {
 }
 .portfolio-column img {
 	width: 100%;
+	position: relative;
 }
 .portfolio-column img.expanded {
     max-width: none;
@@ -123,9 +131,15 @@ span {
 	font-size: 18px;
 	font-style: italic;
 }
-
 .portfolio-row {
 	margin-bottom: 100px;
+}
+.portfolio-column--left:hover,
+.portfolio-column--right:hover,
+.portfolio-column--center:hover {
+	 transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
 }
 .resume-header {
 	margin-bottom: 0px;
@@ -167,11 +181,37 @@ span {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 }
-
+.footer-backToTop {
+	margin-top: 25px;
+	width: 50px;
+}
 .linkedIn {
 	text-decoration: underline;
 }
 
+.description {
+	visibility: hidden;
+	position: absolute;
+	width:78%;
+	bottom: 0px;
+	padding: 10px 0;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 8px;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #bbb;
+}
+.portfolio-column--left:hover .description,
+.portfolio-column--right:hover .description,
+.portfolio-column--center:hover .description {
+	visibility: visible;
+}
 
+@media (min-width: 1200px) {
+	.portfolio-column {
+		height: 300px;
+	}
+}
 
 
