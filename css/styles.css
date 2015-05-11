@@ -72,10 +72,16 @@ span {
 	margin-top: 50px; 
 	text-align: center;
 }
+.portfolio-row {
+	margin-left: 4%;
+	margin-bottom: 100px;
+}
 .portfolio-column {
 	display: inline-block;
 	width: 25%;
+	height: 200px;
 	padding: 0 3.5% 0 3.5%;
+	overflow: hidden;
 }
 .portfolio-column img {
 	width: 100%;
@@ -87,17 +93,23 @@ span {
 	display:block;
 	margin-bottom: 50px;
 }
-.portfolio-header {
+.portfolio-header,
+.resume-header {
 	background: #89bab6;
 	color: #fff;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	padding-top: 7%;
 	padding-bottom: 7%;
 	text-align: center;
 }
-
+.portfolio-header {
+	background-color: #FBB755;
+	padding-top: 6%;
+	padding-bottom: 8%;
+}
 .portfolio-header--title,
-.footer-title {
+.footer-title,
+.resume-header--title {
 	font-family: 'Montserrat', sans-serif;
 	font-size:24px;
 	padding: 15px;
@@ -105,7 +117,7 @@ span {
 }
 
 .portfolio-header--subtitle,
-.footer-content {
+.resume-header--subtitle {
 	width: 70%;
 	font-family: 'Lora', serif;
 	font-size: 18px;
@@ -113,9 +125,28 @@ span {
 }
 
 .portfolio-row {
-	margin-bottom: 25px;
+	margin-bottom: 100px;
 }
-
+.resume-header {
+	margin-bottom: 0px;
+}
+.resume-header--download {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	width: 200px;
+	padding: 20px 0;
+	border: 2px solid #fff;
+}
+.resume-header--download:hover {
+	background-color: #fff;
+}
+.resume-header--download:hover a {
+	color: #89bab6;
+	font-weight: 700;
+}
+.resume-header--subtitle {
+	margin-bottom: 50px;
+}
 .footer {
 	color: #fff;
 	background-color: #aaa;
@@ -129,8 +160,12 @@ span {
 }
 
 .footer-content {
-	font-size:14px;
-	line-height: 24px;
+	width: 70%;
+	font-size:10px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
 }
 
 .linkedIn {

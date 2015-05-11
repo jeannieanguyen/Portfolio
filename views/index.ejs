@@ -21,21 +21,51 @@
 
 			<div class="navbar">
 				<div class="navbar-item">
-					<a href="#"><span class="navbar-item--resume">Resume</span></a>
+					<a href="#resume"><span class="navbar-item--resume">Resume</span></a>
 				</div>
 				<div class="navbar-item"  onclick="displayPortfolio()">
-					<a href="#"><span class="navbar-item--porfolio">Portfolio</span></a>
+					<a href="#portfolio"><span class="navbar-item--porfolio">Portfolio</span></a>
 				</div>
 				<div class="navbar-item">
-					<a href="#"><span class="navbar-item--contact">Contact</span></a>
+					<a href="#contact"><span class="navbar-item--contact">Contact</span></a>
 				</div>
 			</div> 
+		</div>
+	</div>
+	<div id="resume">
+		<div class="resume-header">
+			<span class="resume-header--title">RESUME</span>
+				<span class="resume-header--subtitle"> A recent UCLA grad, </span>
+			<span class="resume-header--download"><a href="./css/image/resume.pdf" download>DOWNLOAD PDF
+			</a></span>
 		</div>
 	</div>
 	<div id="portfolio">
 		<div class="portfolio-header">
 			<span class="portfolio-header--title">PORTFOLIO</span>
 				<span class="portfolio-header--subtitle">A mix of web design and development...something, something about personal, academic and professional projects.</span>
+		</div>
+		<div class="portfolio-row">
+			<div class="portfolio-column portfolio-column--left">
+				<a href="http://bloomnation.com" target="_blank"><img src="./css/image/bloom.jpg" /></a>
+			</div>
+			<div class="portfolio-column portfolio-column--center">
+				<a href="http://marksgarden.com" target="_blank"><img src="./css/image/marks.jpg" /></a>
+			</div>
+			<div class="portfolio-column portfolio-column--right">
+				<a href="http://mdsflorist.com" target="_blank"><img src="./css/image/mds.jpg" /></a>
+			</div>
+		</div>
+		<div class="portfolio-row">
+			<div class="portfolio-column portfolio-column--left">
+				<a href="http://tothedesigncorner.tumblr.com" target="_blank"><img src="./css/image/design.jpg" /></a>
+			</div>
+			<div class="portfolio-column portfolio-column--center">
+				<a href="letuseattheworld.tumblr.com" target="_blank"><img src="./css/image/food.jpg" /></a>
+			</div>
+			<div class="portfolio-column portfolio-column--right">
+				<img src="./css/image/dmw.jpg" />
+			</div>
 		</div>
 		<div class="portfolio-row">
 			<div class="portfolio-column portfolio-column--left">
@@ -48,22 +78,11 @@
 				<img src="./css/image/cotton.png" />
 			</div>
 		</div>
-		<div class="portfolio-row">
-			<div class="portfolio-column portfolio-column--left">
-				<img src="./css/image/mds.jpg" />
-			</div>
-			<div class="portfolio-column portfolio-column--center">
-				<img src="./css/image/shermanoaks.jpg" />
-			</div>
-			<div class="portfolio-column portfolio-column--right">
-				<img src="./css/image/dmw.jpg" />
-			</div>
-		</div>
 	</div>
-	<div class="footer">
+	<div class="footer" id="contact">
 			<span class="footer-title">CONTACT</span>
 			<span class="footer-content">E-mail: jeannieanguyen@gmail.com</span>
-			<a href="https://www.linkedin.com/pub/jeannie-nguyen/84/650/844"><span class="footer-content linkedIn">LinkedIn Profile</span></a>
+			<a href="https://www.linkedin.com/pub/jeannie-nguyen/84/650/844" target="_blank"><span class="footer-content linkedIn">LinkedIn Profile</span></a>
 	</div>
 </body>
 </html>
