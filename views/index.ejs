@@ -9,18 +9,21 @@
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="display.js"></script>
 </head>
 <body>
 	<div class="coverphoto">
 		<div class="header">
-			<span class="header--title">Jeannie Nguyen</span><br />
+			<span class="header--title">Jeannie Nguyen</span>
 			<span class="header--subtitle">Designer. Developer. Engineer.</span>
 
 			<div class="navbar">
 				<div class="navbar-item">
 					<a href="#"><span class="navbar-item--resume">Resume</span></a>
 				</div>
-				<div class="navbar-item">
+				<div class="navbar-item"  onclick="displayPortfolio()">
 					<a href="#"><span class="navbar-item--porfolio">Portfolio</span></a>
 				</div>
 				<div class="navbar-item">
@@ -29,8 +32,38 @@
 			</div> 
 		</div>
 	</div>
-	<div class="construction">
-		<span> Under Construction! Check back again soon!</span>
+	<div id="portfolio">
+		<div class="portfolio-header">
+			<span class="portfolio-header--title">PORTFOLIO</span>
+				<span class="portfolio-header--subtitle">A mix of web design and development...something, something about personal, academic and professional projects.</span>
+		</div>
+		<div class="portfolio-row">
+			<div class="portfolio-column portfolio-column--left">
+				<img src="./css/image/kangaroo.png" />
+			</div>
+			<div class="portfolio-column portfolio-column--center">
+				<img src="./css/image/jb.png" />
+			</div>
+			<div class="portfolio-column portfolio-column--right">
+				<img src="./css/image/cotton.png" />
+			</div>
+		</div>
+		<div class="portfolio-row">
+			<div class="portfolio-column portfolio-column--left">
+				<img src="./css/image/mds.jpg" />
+			</div>
+			<div class="portfolio-column portfolio-column--center">
+				<img src="./css/image/shermanoaks.jpg" />
+			</div>
+			<div class="portfolio-column portfolio-column--right">
+				<img src="./css/image/dmw.jpg" />
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+			<span class="footer-title">CONTACT</span>
+			<span class="footer-content">E-mail: jeannieanguyen@gmail.com</span>
+			<a href="https://www.linkedin.com/pub/jeannie-nguyen/84/650/844"><span class="footer-content linkedIn">LinkedIn Profile</span></a>
 	</div>
 </body>
 </html>

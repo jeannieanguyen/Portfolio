@@ -7,8 +7,11 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
+span {
+	display:block;
+}
 .coverphoto {
-	background-image: url("image/coverphoto3.jpg");
+	background-image: url("image/coverphoto.jpg");
 	background-color: #000;
 	background-position: top-left;
 	background-size: cover;
@@ -69,4 +72,71 @@ a{
 	margin-top: 50px; 
 	text-align: center;
 }
+.portfolio-column {
+	display: inline-block;
+	width: 25%;
+	padding: 0 3.5% 0 3.5%;
+}
+.portfolio-column img {
+	width: 100%;
+}
+.portfolio-column img.expanded {
+    max-width: none;
+}
+#portfolio {
+	display:block;
+	margin-bottom: 50px;
+}
+.portfolio-header {
+	background: #89bab6;
+	color: #fff;
+	margin-bottom: 50px;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	text-align: center;
+}
+
+.portfolio-header--title,
+.footer-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size:24px;
+	padding: 15px;
+	margin-bottom:10px;
+}
+
+.portfolio-header--subtitle,
+.footer-content {
+	width: 70%;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.portfolio-row {
+	margin-bottom: 25px;
+}
+
+.footer {
+	color: #fff;
+	background-color: #aaa;
+	padding-top: 3%;
+	padding-bottom: 4%;
+	text-align: center;
+}
+.footer-title {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.footer-content {
+	font-size:14px;
+	line-height: 24px;
+}
+
+.linkedIn {
+	text-decoration: underline;
+}
+
+
+
 
