@@ -233,9 +233,7 @@ span {
 		margin-bottom: 50px;
 		border: 1px solid #ddd;
 	}
-	.portfolio-column img:hover {
-		border: 50px solid #000;
-	}
+
 	.portfolio-column--left:hover .description,
 	.portfolio-column--right:hover .description,
 	.portfolio-column--center:hover .description {
@@ -245,9 +243,9 @@ span {
 	.portfolio-column--left:hover,
 	.portfolio-column--right:hover,
 	.portfolio-column--center:hover {
-		 transform: scale(1);
-		-webkit-transform: scale(1);
-	    -ms-transform: scale(1);
+		 transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
 
 	}
 
